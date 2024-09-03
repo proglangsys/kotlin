@@ -34,7 +34,7 @@ Integrated Development Environment (IDE) — комплекс программн
 
 Запустить «IntelliJ IDEA». Если открыт приветственный экран «Welcome to IntelliJ IDEA», нажать кнопку «New Project». Если открыто основное окно, выбрать пункт меню «File | New | Project».
 
-![Снимок экрана: создание нового проекта](https://github.com/proglangsys/java/blob/main/images/lab1_1.png)
+![Снимок экрана: создание нового проекта](https://github.com/proglangsys/kotlin/blob/main/images/lab1_1.png)
 
 Выбрать пункт «New Project» из списка слева. Задать имя нового проекта (например, «Lab1») в поле «Name» и изменить его месторасположение в поле «Location», если необходимо. Выбрать язык программирования «Kotlin» (в списке «Languages»). Выбрать систему сборки «Gradle» (в списке «Build system») и предметно-ориентированный язык  системы сборки «Groovy» (в списке «Gradle DSL). Проверить, что выбрана JDK версии 8 или выше (в списке «JDK»).
 
@@ -47,7 +47,7 @@ Integrated Development Environment (IDE) — комплекс программн
 
 В окне «Project» щелкнуть правой кнопкой мыши папку «src/main/kotlin», выбрать пункт «New | Kotlin Class/File». Задать имя нового Kotlin-файла как «Main», выбрав пункт «File» в списке снизу.
 
-![Снимок экрана: создание нового файла](https://github.com/proglangsys/java/blob/main/images/lab1_2.png)
+![Снимок экрана: создание нового файла](https://github.com/proglangsys/kotlin/blob/main/images/lab1_2.png)
 
 Внутри созданного Kotlin-файла можем писать код.
 
@@ -65,13 +65,13 @@ fun main() {
 
 Выбрать пункт меню «Run | Run…» или нажать кнопку «Run» на панели инструментов сверху — «зеленый треугольник» (Alt+Shift+F10). В раскрывшемся списке выбрать «MainKt». Запустится компиляция исходного кода программы в байт-код и затем исполнение приложения в Java VM. Результат выполнения программы, сообщение «Hello, Kotlin!», будет выводиться во встроенной командной строке.
 
-![Снимок экрана: проект (слева) и редактируемый файл (справа)](https://github.com/proglangsys/java/blob/main/images/lab1_3.png)
+![Снимок экрана: проект (слева) и редактируемый файл (справа)](https://github.com/proglangsys/kotlin/blob/main/images/lab1_3.png)
 
 ### Выполнение Kotlin-кода в REPL
 
 REPL (Read, Evaluate, Print, Loop) --- командная строка внутри IDE для быстрого выполнения Kotlin-кода без создания Kotlin-файла и компиляции. REPL можно запустить командой меню «Tools | Kotlin | Kotlin REPL». Код вводится в командной строке REPL. Для того чтобы запустить его следует нажать кнопку запуска слева (Ctrl+Enter). Результат выводится также в командной строке REPL.
 
-![Снимок экрана: выполнение Kotlin-кода в REPL](https://github.com/proglangsys/java/blob/main/images/lab1_4.png)
+![Снимок экрана: выполнение Kotlin-кода в REPL](https://github.com/proglangsys/kotlin/blob/main/images/lab1_4.png)
 
 ### Переменные, константы и типы
 
@@ -157,7 +157,7 @@ fun main() {
 
 Байт-код, полученный в результате компиляции Kotlin-файла, можно открыть командой меню «Tools | Kotlin | Show Kotlin Bytecode». Для того чтобы декомпилировать его в Java, можно нажать кнопку «Decompile» слева сверху окна с байт-кодом. Результат декомпиляции байт-кода выводится в Java-класс.
 
-![Снимок экрана: окно с байт-кодом](https://github.com/proglangsys/java/blob/main/images/lab1_5.png)
+![Снимок экрана: окно с байт-кодом](https://github.com/proglangsys/kotlin/blob/main/images/lab1_5.png)
 
 ### Сборка и запуск проекта Gradle
 
