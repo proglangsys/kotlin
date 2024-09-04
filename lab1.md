@@ -117,6 +117,9 @@ fun main() {
     val flag : Boolean = false
     val i : Int = 5
     val d : Double = 0.5
+    val numbers = listOf(1, 2, 3, 4, 5)
+    val planets = setOf("меркурий", "венера", "земля", "марс")
+    val sizes = mapOf("small" to 500, "medium" to 1500, "large" to 3000)
 }
 ```
 
@@ -196,17 +199,19 @@ implementation group: 'org.apache.commons', name: 'commons-math', version: '2.2'
 
 **Часть II**
 
-- Выполнить программу в REPL для вычисления евклидова расстояния между заданными точками 
+- Выполнить программу в REPL для вычисления евклидова расстояния между двух точек 
 - Использовать функции из пакета kotlin.math
 - Создать проект с данной программой в IDE
-- Добавить зависимость [Apache Commons Math](https://mvnrepository.com/artifact/org.apache.commons/commons-math) в файл build.gradle  
+- Добавить зависимость [commons-math](https://mvnrepository.com/artifact/org.apache.commons/commons-math) в файл build.gradle  
 - Использовать данную зависимость при вычислении евклидова расстояния (воспользоваться готовым методом, поставляемом в составе библиотеки [Apache Commons Math](https://commons.apache.org/proper/commons-math))
-- Собрать проект с данной программой с помощью системы сборки Gradle
+- Собрать и запустить проект с данной программой с помощью системы сборки Gradle
 
 **Часть III**
-
- - Разработать программу для вычисления количеств четных и нечетные цифр в числе _n_
- - Реализовать ввод числа _n_ с командной строки
+ - Разработать программу для вычисления косинусного сходства двух векторов, представленный набором _n_ элементов --- чисел
+ - Реализовать ввод числа _n_ из параметров командной строки
+ - Реализовать наполнение векторов случайными числами
+ - Создать, собрать и запустить проект с данной программой в IDE
+****
 
 ## Вопросы
 
@@ -226,10 +231,8 @@ implementation group: 'org.apache.commons', name: 'commons-math', version: '2.2'
 - [Kotlin. Программирование для профессионалов. 2-е изд. Скин Д., Гринхол Д., Бэйли Э.](https://www.piter.com/collection/yazyki-programmirovaniya/product/kotlin-programmirovanie-dlya-professionalov-2-e-izd) Главы 1, 2
 - [Создание проекта в IntelliJIDEA](https://www.jetbrains.com/help/idea/new-project-wizard.html#new-project-no-frameworks)
 - [Main-функция](https://docs.oracle.com/javase/tutorial/getStarted/application/index.html)
-- [Евклидово расстояние](https://ru.wikipedia.org/wiki/%D0%95%D0%B2%D0%BA%D0%BB%D0%B8%D0%B4%D0%BE%D0%B2%D0%B0_%D0%BC%D0%B5%D1%82%D1%80%D0%B8%D0%BA%D0%B0)
 - [Библиотека «Apache Commons Math»](https://commons.apache.org/proper/commons-math/)
 - [Класс Class EuclideanDistance из «Apache Commons Math»](https://commons.apache.org/proper/commons-math/javadocs/api-3.6.1/org/apache/commons/math3/ml/distance/EuclideanDistance.html)
-- [Maven репозиторий](https://mvnrepository.com/artifact/org.apache.commons/commons-math3/3.6.1)
+- [Maven репозиторий](https://mvnrepository.com)
 - [IntelliJIDEA на русском](https://www.jetbrains.com/ru-ru/idea/resources)
-- [Maven в IntelliJ IDEA](https://www.jetbrains.com/help/idea/maven-support.html)
 - [Gradle в IntelliJ IDEA](https://www.jetbrains.com/help/idea/gradle.html)
