@@ -118,7 +118,7 @@ fun main() {
     val i : Int = 5
     val d : Double = 0.5
     val numbers = listOf(1, 2, 3, 4, 5)
-    val planets = setOf("меркурий", "венера", "земля", "марс")
+    val planets = setOf("Меркурий", "Венера", "Земля", "Марс")
     val sizes = mapOf("small" to 500, "medium" to 1500, "large" to 3000)
 }
 ```
