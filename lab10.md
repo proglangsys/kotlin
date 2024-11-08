@@ -33,7 +33,7 @@ class Rectangle: Shape {
 	var width: Int = 1
 	var height: Int = 1
 	
-    fun draw(Graphics2D g) {
+    fun draw(Graphics2D g2d) {
         g2d.fillRect(x, y, width, height)
     }
 }
@@ -66,8 +66,8 @@ class Rectangle: Shape() {
     override val defaultColor : Color = Color.RED
     
 	// Переопределение метода, унаследованного от суперкласса 
-    override fun draw(Graphics2D g) {
-	    g2d.color = defaultColor
+    override fun draw(Graphics2D g2d) {
+	g2d.color = defaultColor
         g2d.fillRect(x, y, width, height)
     }
 }
